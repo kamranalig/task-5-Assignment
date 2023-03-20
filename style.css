@@ -1,0 +1,54 @@
+.navbar{
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+.navbar ul{
+    font-size: 20px;
+}
+.header{
+    background-image: url("./assets/bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: fixed;
+    height: 50vh;
+    color: white;
+}
+.about{
+    background-color: #f5f5f5;
+  
+}
+.about p{
+    text-align: justify;
+}
+.card{
+    cursor: pointer;
+    box-shadow: 4px 4px 10px #ddd;
+}
+.card:hover{
+    box-shadow: 4px 4px 10px #444;
+    width: 300px;
+    height: 300px;
+}
+.card-img-top{
+    height: 200px;
+}
+.team{
+    background-color: #f5f5f5;
+}
+.team p{
+text-align: center;
+}
+.carousel-item img{
+display: inline-block;
+margin: auto;
+}
+.footer{
+    background-color: rgba(9, 9, 231, 0.801);
+    color: white;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+.footer ul{
+    list-style: none;
+    cursor: pointer;
+}
